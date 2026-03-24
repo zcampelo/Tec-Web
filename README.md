@@ -2,6 +2,6 @@
 Repositório para implementar conhecimentos adquiridos ao longo das aulas de Tecnologias Web. 
 
 ## Progresso
-- HTML ❌
+- HTML ✅
 - CSS ❌
 - JavaScript ❌

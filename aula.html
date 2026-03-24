@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aula 1 HTML</title>
     <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/5537/5537993.png">
+
 </head>
 <body style="background-color: rgb(255, 255, 255);">
     <div id="topo"></div>
@@ -16,16 +17,54 @@
     <a href="ancora.html">Clique para ir para a outra página</a>
 
     <h2>Imagens/Gif:</h2>
-    <img src="https://mir-s3-cdn-cf.behance.net/project_modules/source/5eeea355389655.59822ff824b72.gif" alt="Gato Andando" width="400">
+    <img src="https://mir-s3-cdn-cf.behance.net/project_modules/source/5eeea355389655.59822ff824b72.gif" alt="Gato Andando" width="400" height="400">
 
     <h2>Styles:</h2>
     <span style="color: red; font-size: large;">Esse texto é vermelho</span>
     <br>
     <span style="background-color: rgb(17, 255, 0); font-size: large;">Esse tem fundo verde</span>
 
-    <h2>Input:</h2>
-    <input type="text">
-    <button>Enviar</button>
+    <h2>Formulário:</h2>
+    <form action="">
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" placeholder="Insira seu nome" required>
+        <br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="username@email" required>
+        <br>
+        <label for="senha">Senha:</label><br>
+        <input type="password" id="senha" name="senha" placeholder="Insira sua senha" required>
+        <br>
+        <label for="date">Nascimento:</label><br>
+        <input type="date" id="nascimento" name="nascimento">
+        <br>
+
+        <p>Sexo:</p>
+        <input type="radio" name="genero" id="masc">
+        <label for="masc">Masculino</label>
+        <br>
+        <input type="radio" name="genero" id="fem">
+        <label for="fem">Feminino</label>
+        <br>
+
+        <p>Selecione quais linguagens quer aprender:</p>
+        <input type="checkbox" name="assunto" id="html">
+        <label for="HTML">HTML</label>
+        <br>
+        <input type="checkbox" name="assunto" id="css">
+        <label for="CSS">CSS</label>
+        <br>
+        <input type="checkbox" name="assunto" id="js">
+        <label for="JS">JavaScript</label>
+        <br>
+        <br>
+        <label for="mensagem">Mensagem:</label>
+        <br>
+        <textarea name="mensagem" rows="5" cols="30" placeholder="Seu conteúdo aqui"></textarea>
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Apagar">
+    </form>
 
     <h2>Divs e Span:</h2>
     <DIV>A div ocupa toda a linha(em bloco) <span>- O span fica na mesma linha</span></DIV>
@@ -43,24 +82,35 @@
     </ul>
 
     <h2>Tabelas:</h2>
-    <table border="10" style="background-color: white;">
-        <tr style="background-color: rgb(146, 146, 146);;">
+    <table border="2" width="400" height="150">
+        <tr>
             <th>Nome</th>
+            <th>Profissão</th>
             <th>idade</th>
         </tr>
         <tr>
             <td>Lucas</td>
+            <td>Desenvolvedor</td>
             <td>21</td>
         </tr>
         <tr>
-            <td>Velho qualquer</td>
+            <td>Sr. Raimundo</td>
+            <td>Aposentado</td>
             <td>82</td>
+        </tr>
+        <tr>
+            <th colspan="2">Total de pessoas</th>
+            <td>2</td>
         </tr>
     </table>
 
+    <h2>Aúdio:</h2>
+    <audio controls src="audio/u_dn8ylcpe3v-f1_radio_sound-293747.mp3"></audio>
+
     <h2>Iframe:</h2>
-    <iframe src="https://campusvirtual.ufsj.edu.br/site/" frameborder="0" width="1000" height="800"></iframe>
+    <iframe width="560" height="315" src="https://campusvirtual.ufsj.edu.br/portal/2026_1/" width="800" height="600"></iframe>
 
     <p><a href="#topo">Voltar para o Início</a></p>
+
 </body>
 </html>

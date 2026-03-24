@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botões CSS</title>
+
+    <style>
+        body {
+            background-color: #dddddd;
+        }
+
+        h1 {
+            font-family: 'Montserrat';
+            color: #2644a7;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        #div1 {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }   
+
+        #button1 {
+            border: none;
+            border-radius: 60px;
+            font-family: 'Montserrat';
+            font-size: 16px;
+            color: white;
+            background: #2644a7;
+            cursor: pointer;
+            padding: 25px 80px;
+            margin-right: 30px;
+            letter-spacing: 1px;
+            font-weight: 600;
+            align-self: center;
+            transition: 0.5s ease;
+        }
+
+        #button1:hover{
+            background: #4a65bb;
+        }
+
+        #button2 {
+            border: none;
+            border-radius: 60px;
+            font-family: 'Montserrat';
+            font-size: 16px;
+            color: white;
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            cursor: pointer;
+            padding: 25px 80px;
+            letter-spacing: 1px;
+            font-weight: 600;
+        }
+        
+
+        #button2:hover{
+            background: linear-gradient(to right, #feb47b, #ff7e5f);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Botões CSS</h1>
+    <div id="div1">
+        <button id="button1" type="button">Clique aqui!</button>
+        <button id="button2" type="button">Clique aqui!</button>
+    </div>
+    
+</body>
+</html>

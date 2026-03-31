@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+
+.textoVermelho {
+    color: red; 
+    font-size: large;
+}
+
+.textoFundoVerde {
+    background-color: rgb(17, 255, 0); 
+    font-size: large;
+}
